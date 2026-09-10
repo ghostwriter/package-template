@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "860ca241fd979f41b5472aba494e2815",
+    "content-hash": "de8738fda71d51f297b23d5120726368",
     "packages": [
         {
             "name": "ghostwriter/case-converter",
@@ -329,31 +329,31 @@
         },
         {
             "name": "ghostwriter/console",
-            "version": "0.2.3",
+            "version": "0.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/console.git",
-                "reference": "205f0ef525810df84021b9a86e0068d2910b24e6"
+                "reference": "1971890cac1b2629d0aeb50ff9cdb0d00e42bee8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/console/zipball/205f0ef525810df84021b9a86e0068d2910b24e6",
-                "reference": "205f0ef525810df84021b9a86e0068d2910b24e6",
+                "url": "https://api.github.com/repos/ghostwriter/console/zipball/1971890cac1b2629d0aeb50ff9cdb0d00e42bee8",
+                "reference": "1971890cac1b2629d0aeb50ff9cdb0d00e42bee8",
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
-                "ghostwriter/config": "^2.1.3",
-                "ghostwriter/container": "^7.0.1",
-                "php": "~8.4.0 || ~8.5.0",
-                "symfony/console": "^8.0.8"
+                "ghostwriter/container": "^7.0.2",
+                "php": "~8.4.0 || ~8.5.0 || ~8.6.0",
+                "symfony/console": "^8.1.6"
             },
             "require-dev": {
+                "boundwize/structarmed": "^0.17.2",
                 "ext-xdebug": "*",
                 "ghostwriter/coding-standard": "dev-main",
-                "mockery/mockery": "^1.6.12",
-                "phpunit/phpunit": "^13.1.7",
-                "symfony/var-dumper": "^8.0.8"
+                "ghostwriter/phpunit-assertions": "^0.1.1",
+                "mockery/mockery": "^1.6.15",
+                "phpunit/phpunit": "^13.3.3"
             },
             "type": "library",
             "extra": {
@@ -402,9 +402,13 @@
                 {
                     "url": "https://github.com/sponsors/ghostwriter",
                     "type": "github"
+                },
+                {
+                    "url": "https://paypal.me/codepoet",
+                    "type": "paypal"
                 }
             ],
-            "time": "2026-04-23T04:43:20+00:00"
+            "time": "2026-09-10T07:08:25+00:00"
         },
         {
             "name": "ghostwriter/container",
